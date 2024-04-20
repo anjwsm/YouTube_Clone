@@ -9,7 +9,9 @@ import notification_icon from '../../assets/notification.png'
 import profile_icon from '../../assets/jack.png'
 import { Link } from 'react-router-dom'
 
+
 export const Navbar = ({setSidebar}) => {
+
   return (
     <nav className='flex-div'>
         <div className='nav-left  flex-div'>
@@ -19,8 +21,10 @@ export const Navbar = ({setSidebar}) => {
 
         <div className='nav-middle flex-div'>
         <div className='search-box'>
-           <input type='text' placeholder='Search'/>
-           <img   src={search_icon} alt='' />
+           <input type='text' placeholder='Search' />
+           <img   src={search_icon} alt=''  />
+          
+           
         </div>
           
         </div>
@@ -34,3 +38,5 @@ export const Navbar = ({setSidebar}) => {
     </nav>
   )
 }
+
+

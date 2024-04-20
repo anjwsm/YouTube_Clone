@@ -3,9 +3,11 @@ import { useState } from 'react'
 import './Home.css'
 import { Sidebar } from '../../Components/Sidebar/Sidebar'
 import { Feed } from '../../Components/Feed/Feed'
+import { Navbar } from '../../Components/Navbar/Navbar'
 
 export const Home = ({sidebar}) => {
   const [category , setCategory] = useState(0) ;
+
   return (
     <>
       <Sidebar  sidebar={sidebar} category={category}  setCategory={setCategory}/>

@@ -61,7 +61,7 @@ export const Sidebar = ({sidebar , category , setCategory }) => {
                <img src={tom} alt='' /> <p>Justin Bieber</p>
             </div>
             <div  className='side-link'>
-               <img src={megan} alt='' /> <p>5-Minute Crafts</p>
+               <img src={megan} alt='' /> <p>Minute Crafts</p>
             </div>
             <div  className='side-link'>
                <img src={cameron} alt='' /> <p>Nas Daily</p>
